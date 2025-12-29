@@ -1,0 +1,8 @@
+ext {
+    extName = "ManhuaUS"
+    pkgNameSuffix = "en.manhuaus"
+    baseUrl = "https://manhuaus.com"
+    overrideVersionCode = 1
+}
+
+apply(from = "$rootDir/common.gradle")
